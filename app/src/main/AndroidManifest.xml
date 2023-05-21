@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AndriodKotlinBook"
         tools:targetApi="31">
         <activity
+            android:name=".cut_stone_hand.CSP"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
